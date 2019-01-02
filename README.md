@@ -12,7 +12,7 @@ Product = new Schema({
     category: String
 });
 ```
-The purpose of this application is just learn how to use a couple modules of each technology such as:
+The purpose of this application is just learn how to use some modules of each technology such as:
 
 **React:**
 - React-Router-Dom, 
