@@ -7,7 +7,7 @@ export class Routes extends Component{
     render() {
       return (
         <Switch>
-            <Route exact path="/" render={() => <h1>Hola</h1>}></Route>
+            <Route exact path="/" render={() => <h1>Welcome to ReactApi</h1>}></Route>
             <Route path="/Products" component={Products}></Route>
         </Switch>
       )
