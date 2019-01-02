@@ -2,7 +2,7 @@
 
 It's a simple CRUD application using React as Frontend and NodeJS as Backend.
 
-The database used in this sample is MongoDB that just has one Schema.
+The database used in this sample is MongoDB and it just has one Schema.
 
 ```javascript
 Product = new Schema({
