@@ -13,14 +13,15 @@ Product = new Schema({
 });
 ```
 The purpose of this application is just learn how to use a couple modules of each technology such as:
-React:
+
+**React:**
 - React-Router-Dom, 
 - Reactstrap, 
 - PrimeReact, 
 - Redux, React-Redux, 
 - etc...
 
-NodeJS
+**NodeJS**
 - Express
 - Mongoose
 - Socket.IO (Used to update all the clients when someone add/edit a Product)
