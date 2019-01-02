@@ -1,6 +1,6 @@
 # ReactApi 
 
-is a simple CRUD application using React as Frontend and NodeJS as Backend.
+It's a simple CRUD application using React as Frontend and NodeJS as Backend.
 
 The database used in this sample is MongoDB that just has one Schema.
 
