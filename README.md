@@ -1,6 +1,6 @@
 # ⏳ Realtime Products CRUD 🍎🥖
 
-It's a simple CRUD application using React as Frontend and NodeJS with Sockets as Backend.
+It's a simple CRUD application using React as Frontend and NodeJS with Sockets as Backend. It was built 3-4 years ago when I was learning ReactJS and NodeJS 😃.
 
 The database used in this sample is MongoDB and it just has one Schema.
 
