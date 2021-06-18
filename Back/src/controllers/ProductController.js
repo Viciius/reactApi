@@ -32,7 +32,7 @@ const getProducts = (req, res) => {
 
 const addProduct = (req, res) => {
     try {
-        Product.create(req.body, (req, data) => {
+        Product.create(req.body.product, (req, data) => {
             return res.json(data);
         });
     } catch (error) {

@@ -6,7 +6,6 @@ const server = app.listen(3300, 'localhost', () => {
 const io = require('socket.io').listen(server);
 const mongoose = require('mongoose');
 const ProductController = require('./src/controllers/ProductController');
-const bodyParser = require('body-parser');
 
 app.get('/', function (req, res) {
     res.send('Inicio de API REST');
@@ -20,8 +19,8 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 app.use(require('./src/routes/index'));
 
 mongoose.connect('mongodb://localhost:27017/react_products', { useNewUrlParser: true }, (err) => {
