@@ -1,6 +1,6 @@
-# ReactApi 
+# ⏳ Realtime Products CRUD 🍎🥖
 
-It's a simple CRUD application using React as Frontend and NodeJS as Backend.
+It's a simple CRUD application using React as Frontend and NodeJS with Sockets as Backend.
 
 The database used in this sample is MongoDB and it just has one Schema.
 
@@ -18,19 +18,15 @@ The purpose of this application is just learn how to use some modules of each te
 - React-Router-Dom, 
 - Reactstrap, 
 - PrimeReact, 
-- Redux, React-Redux, 
-- etc...
+- Redux, React-Redux
 
 **NodeJS**
 - Express
 - Mongoose
 - Socket.IO (Used to update all the clients when someone add/edit a Product)
 
-
-## Main CRUD View
-![Main view](https://fotos.subefotos.com/d536cdd277c4646840ab3fe905267197o.png)
-
-## Register Form
-![Register Product](https://fotos.subefotos.com/ad86e4bca380243f5e048f4f6cd01167o.png)
+## Example image
+![Example image of the app running](Create-Product.png "Create Product Form")
+![Example image of the app running](View-Product.png "View Product Modal")
 
 
